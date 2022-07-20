@@ -1,0 +1,130 @@
+.body-page {
+    padding: 30px 0;
+}
+.body-page-name {
+    display: flex;
+    align-items: center;
+}
+.api-type {
+    font-size: 12px;
+    font-family: 'Roboto-medium';
+    background-color: rgb(38, 203, 124);
+    color: #fff;
+    padding: 3px 9px;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+.api-name {
+    font-size: 20px;
+    font-family: 'Roboto-bold';
+}
+.body-page-link {
+    background-color: #F5F7F9;
+    padding: 8px 8px;
+}
+.body-page-link {
+    background-color: #F5F7F9;
+    padding: 8px 8px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.wrap-req-resp .ant-tabs-tab {
+    margin-left: 0!important;
+}
+.wrap-req-resp .ant-tabs-tab-btn {
+    font-family: 'Roboto-medium';
+    color: #9DAAB6;
+    transition: 0.3s;
+}
+.wrap-req-resp .ant-tabs-tab-btn:hover{
+    color: #000;
+    transition: 0.3s;
+}
+.wrap-req-resp .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #000;
+}
+.body-page-link p {
+    font-family: 'Roboto-medium';
+}
+.wrap-req-resp .ant-tabs-nav {
+    margin-bottom: 0!important;
+}
+.wrap-req-resp .ant-tabs-content-holder {
+    border: 1px solid #f0f0f0;
+    padding: 20px 30px;
+}
+.position-request {
+    color: #74818D;
+    font-family: 'Roboto-medium';
+    margin-bottom: 8px;
+}
+.content-list-request {
+    border: 1px solid #f0f0f0;
+    padding: 10px 8px;
+}
+.content-list-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.content-list-item:last-child {
+    margin-bottom: 0px;
+}
+.req-name {
+    width: 25%;
+}
+.req-type {
+    width: 25%;
+}
+.req-description {
+    flex: 1;
+}
+.req-optional {
+    font-size: 10px;
+    color: rgb(116, 129, 141);
+}
+.req-type-txt {
+    background-color: #F5F7F9;
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+}
+.req-description-txt {
+    color: #74818D;
+}
+.resp-code-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #26CB7C;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+.resp-code {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.data-example {
+    font-family: 'Roboto-medium';
+    margin-bottom: 30px;
+}
+.example-data {
+    margin-top: 25px;
+}
+.example-json pre {
+    padding: 16px!important;
+}
+.resp-data-json pre {
+    padding: 16px!important;
+}
+.example-json{
+    position: relative;
+}
+.copy-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}

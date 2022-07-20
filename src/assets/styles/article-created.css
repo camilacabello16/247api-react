@@ -1,0 +1,206 @@
+.post-title {
+    font-size: 30px;
+    font-family: 'Roboto-medium';
+}
+.form-post-item{
+    display: flex;
+    padding: 7px 0;
+    position: relative;
+    width: 100%;
+}
+.wrap-button-post{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-post-article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.request-post-item{
+    border: 1px solid #808080c2;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.request-post-item:last-child{
+    margin-bottom: 0px;
+}
+.request-post-input {
+    display: flex;
+    width: 92%;
+}
+.form-post-request{
+    display: flex;
+    padding: 7px 0;
+    position: relative;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 20px 8px;
+    padding-right: 40px;
+    margin: 7px 0;
+}
+.btn-trash-request {
+    margin-left: 10px;
+    flex: 1;
+    text-align: center;
+}
+.request-post {
+    width: 100%;
+}
+.btn-add-request {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06dc0682;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-trash-request {
+    margin-left: 10px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #808080c2;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808080c2;
+    color: #fff;
+    cursor: pointer;
+}
+.select-request{
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+.form-body-type {
+    display: flex;
+    align-items: center;
+}
+.wrap-form-title {
+    border-bottom: 2px solid rgb(230, 236, 241);
+    margin-bottom: 30px;
+}
+.form-body-type .ant-select-selector {
+    border-radius: 50px!important;
+    height: 30px!important;
+    font-size: 12px;
+    font-family: 'Roboto-medium';
+    background-color: rgb(56, 132, 255)!important;
+    color: #fff;
+}
+.wrap-form-body .ant-tabs-tab {
+    margin-left: 0!important;
+}
+.wrap-form-body .ant-tabs-tab-btn {
+    font-family: 'Roboto-medium';
+    color: #9DAAB6;
+    transition: 0.3s;
+}
+.wrap-form-body .ant-tabs-tab-btn:hover{
+    color: #000;
+    transition: 0.3s;
+}
+.wrap-form-body .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #000;
+}
+.wrap-form-body .ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav{
+    margin-bottom: 0;
+}
+.wrap-form-body .ant-tabs-content-holder {
+    border: 1px solid #f0f0f0;
+    padding: 24px 24px 0px 24px;
+}
+.content-list-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid rgb(230, 236, 241);
+}
+.content-list-item:last-child {
+    margin-bottom: 0px;
+}
+.req-name {
+    width: 20%;
+}
+.req-type {
+    width: 17%;
+}
+.req-description {
+    flex: 1;
+}
+.req-optional {
+    font-size: 10px;
+    color: rgb(116, 129, 141);
+    width: 95px;
+}
+.req-type-txt {
+    background-color: #F5F7F9;
+    width: 90px;
+    text-align: center;
+    border-radius: 4px;
+}
+.req-description-txt {
+    color: #74818D;
+}
+.list-req-item {
+    width: 100%;
+    display: flex;
+}
+
+.req-optional .ant-select-selector{
+    border: none!important;
+    font-size: 10px;
+    font-family: 'Roboto-medium';
+}
+.req-type-txt .ant-select-selector
+{
+    border: none!important;
+    background-color: rgb(245, 247, 249)!important;
+    border-radius: 3px;
+}
+.api-example-input{
+    margin-top: 30px;
+}
+.btn-submit-form-post {
+    display: flex;
+    justify-content: flex-end;
+}
+.wrap-response-post{
+    position: relative;
+}
+.icon-remove-item-resp{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.wrap-response-post .ant-select-selector{
+    border: none!important;
+}
+.wrap-response-post .ant-select.ant-select-single.ant-select-show-arrow {
+    width: 160px;
+}
+.req-name-txt .ant-row.ant-form-item{
+    margin-bottom: 0px;
+}
+.req-name-txt .ant-row.ant-form-item.ant-form-item-has-success {
+    margin-bottom: 0!important;
+}
+.req-kind{
+    width: 25%;
+}
+.req-kind-txt{
+    background-color: #F5F7F9;
+    width: 180px;
+    text-align: center;
+    border-radius: 4px;
+}

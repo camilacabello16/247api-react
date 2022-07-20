@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('assets/fonts/Roboto-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('assets/fonts/Roboto-Bold.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('assets/fonts/Roboto-Medium.ttf') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}

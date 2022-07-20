@@ -1,0 +1,12 @@
+.content-header-title{
+    font-size: 32px;
+    font-family: 'Roboto-medium';
+}
+.content-header-txt{
+    color: #74818D;
+    margin-top: 10px;
+}
+.wrap-content-header {
+    padding: 30px 0;
+    border-bottom: 2px solid #E6ECF1;
+}

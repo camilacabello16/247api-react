@@ -1,0 +1,48 @@
+.content-footer-logo img {
+    width: 100%;
+}
+.content-footer-logo {
+    width: 30px;
+}
+.wrap-content-footer-logo {
+    display: flex;
+    align-items: center;
+}
+.time-update{
+    font-size: 12px;
+    color: #9DAAB6;
+    margin-left: 10px;
+}
+.page-content {
+    width: calc(100% - 266px);
+}
+.wrap-content-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #E6ECF1;
+}
+.rating-article {
+    display: flex;
+    align-items: center;
+}
+.rating-option {
+    display: flex;
+    align-items: center;
+}
+.rating-option-item {
+    width: 25px;
+    border-radius: 100px;
+    background-color: rgb(230, 236, 241);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.rating-txt {
+    color: rgb(157, 170, 182);
+}
